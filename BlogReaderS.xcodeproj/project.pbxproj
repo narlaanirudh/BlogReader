@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E932AC1E1829437500990759 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = E932AC1D1829437500990759 /* treehouse.png */; };
+		E932AC211829844900990759 /* ANDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E932AC201829844900990759 /* ANDetailViewController.m */; };
 		E9DBF8B01827F68E00088988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DBF8AF1827F68E00088988 /* Foundation.framework */; };
 		E9DBF8B21827F68E00088988 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DBF8B11827F68E00088988 /* CoreGraphics.framework */; };
 		E9DBF8B41827F68E00088988 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DBF8B31827F68E00088988 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		E932AC1D1829437500990759 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
+		E932AC1F1829844900990759 /* ANDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDetailViewController.h; sourceTree = "<group>"; };
+		E932AC201829844900990759 /* ANDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDetailViewController.m; sourceTree = "<group>"; };
 		E9DBF8AC1827F68E00088988 /* BlogReaderS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReaderS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DBF8AF1827F68E00088988 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9DBF8B11827F68E00088988 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 				E9DBF8BF1827F68E00088988 /* ANAppDelegate.m */,
 				E9DBF8E0182807C000088988 /* ANTableViewController.h */,
 				E9DBF8E1182807C000088988 /* ANTableViewController.m */,
+				E932AC1F1829844900990759 /* ANDetailViewController.h */,
+				E932AC201829844900990759 /* ANDetailViewController.m */,
 				E9DBF8C11827F68E00088988 /* Images.xcassets */,
 				E932AC1D1829437500990759 /* treehouse.png */,
 				E9DBF8B61827F68E00088988 /* Supporting Files */,
@@ -263,6 +268,7 @@
 			files = (
 				E9DBF8BC1827F68E00088988 /* main.m in Sources */,
 				E9DBF8E2182807C000088988 /* ANTableViewController.m in Sources */,
+				E932AC211829844900990759 /* ANDetailViewController.m in Sources */,
 				E9DBF8C01827F68E00088988 /* ANAppDelegate.m in Sources */,
 				E9DBF8E518282ED800088988 /* blogPost.m in Sources */,
 			);
